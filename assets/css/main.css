@@ -2131,10 +2131,10 @@ button,
     -webkit-flex-grow: 0;
     -ms-flex-grow: 0;
     flex-grow: 0;
-    -moz-flex-shrink: 0;
-    -webkit-flex-shrink: 0;
-    -ms-flex-shrink: 0;
-    flex-shrink: 0;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
     display: block;
     margin: 0 0 2em 4em;
     width: 50%; }
@@ -2148,7 +2148,7 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 100%; }
+     }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
