@@ -2116,7 +2116,7 @@ button,
   display: flex; }
   #banner h1 {
     margin-top: -0.125em; }
-  #banner .content 
+  #banner .content {
     width: 50%; }
     #banner .content img {
       -moz-object-position: center;
