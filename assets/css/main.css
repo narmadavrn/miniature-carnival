@@ -2126,7 +2126,7 @@ button,
     -ms-flex-shrink: 1;
     flex-shrink: 1;
     width: 50%; }
-    #banner img {
+    #banner .content img {
       -moz-object-position: center;
       -webkit-object-position: center;
       -ms-object-position: center;
