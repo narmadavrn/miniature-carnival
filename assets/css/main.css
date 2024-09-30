@@ -2117,7 +2117,16 @@ button,
   #banner h1 {
     margin-top: -0.125em; }
   #banner .content {
-    width: 50%; }
+    width: 50%; 
+      -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+  }
     #banner .content img {
       -moz-object-position: center;
       -webkit-object-position: center;
